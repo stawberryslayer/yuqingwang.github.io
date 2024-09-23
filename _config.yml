@@ -6,12 +6,12 @@ description: Yuqing's academic and life experiences
 baseurl:
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
+street_address: 832 Regent Street
+city: Madison
 state: WI
 zip_code: 53715
 country: United States of America
-phone: (608) 960-2483
+phone: +1 (608) 960-2483
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -26,7 +26,7 @@ socials:
   GitLab:
   Google-Plus:
   Instagram:
-  LinkedIn:
+  LinkedIn: https://www.linkedin.com/in/-yuqing-wang/
   Twitter:
   Facebook:
   Slack:
