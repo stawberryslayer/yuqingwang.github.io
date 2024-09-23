@@ -1,17 +1,17 @@
 # site settings
-title: Forty
+title: Yuqing Wang
 subtitle: by HTML5 UP
 email: ywang2776@wisc.edu
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+description: Yuqing's academic and life experiences
+baseurl:
 url: # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
-state: TN
-zip_code: 55555
+state: WI
+zip_code: 53715
 country: United States of America
-phone: (716) 555-5555
+phone: (608) 960-2483
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -24,10 +24,10 @@ tiles-count: 6
 socials:
   GitHub: https://github.com/stawberryslayer
   GitLab:
-  Google-Plus: 
+  Google-Plus:
   Instagram:
-  LinkedIn: 
-  Twitter: 
+  LinkedIn:
+  Twitter:
   Facebook:
   Slack:
 
@@ -38,7 +38,7 @@ sass:
   style: compressed
 
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md
