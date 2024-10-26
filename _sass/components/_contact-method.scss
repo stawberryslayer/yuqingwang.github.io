@@ -7,14 +7,16 @@
 /* Contact Method */
 
 	.contact-method {
+		@include padding(4em, 0, (0, 3em, 0, 0));
+		border-right: solid 1px _palette(border);
 		margin: 0 0 _size(element-margin) 0;
 		padding-left: 3.25em;
 		position: relative;
+		text-align: center;
+		flex: 1;
 
 		.icon {
-			left: 0;
-			position: absolute;
-			top: 0;
+			margin: 0 10px;
 		}
 
 		h3 {
