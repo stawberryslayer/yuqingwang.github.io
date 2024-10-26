@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.2'
+#gem 'jekyll', '~> 4.2'
 
 # Specify GitHub Pages which manages Jekyll and other dependencies
-gem 'github-pages', group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
 
 gem 'bundler', '~> 2.2.0'
 
