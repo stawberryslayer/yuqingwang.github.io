@@ -6,10 +6,11 @@
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
-	<!-- Firebase App (the core Firebase SDK) -->
+	<!-- Firebase UMD scripts -->
 	<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
-
-	<!-- Firebase Firestore -->
 	<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics-compat.js"></script>
 
+	<!-- Link to your tracking.js file in assets -->
+	<script src="{{ '/assets/js/tracking.js' | relative_url }}"></script>
 </head>
