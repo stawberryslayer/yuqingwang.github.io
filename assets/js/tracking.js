@@ -36,10 +36,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         console.log("Visitor data with IP/location:", visitorData);
 
-        // Store visitor data in Firestore
-        await db.collection("visitors").add(visitorData);
+        
         console.log("Visitor data logged:", visitorData);
     } catch (error) {
         console.error("Error fetching IP/location data or logging visitor:", error);
     }
+    // Store visitor data in Firestore
+    await db.collection("visitors").add(visitorData);
 });
