@@ -19,6 +19,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+console.log("Firebase initialized:", firebase);
 
 // tracking.js - tracking code for visitor data
 document.addEventListener("DOMContentLoaded", async () => {
